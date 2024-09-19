@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F8488B782C9C1D5A0028C89A /* SwiftUI_Photos_ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488B772C9C1D5A0028C89A /* SwiftUI_Photos_ConcurrencyApp.swift */; };
-		F8488B7A2C9C1D5A0028C89A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488B792C9C1D5A0028C89A /* ContentView.swift */; };
+		F8488B7A2C9C1D5A0028C89A /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488B792C9C1D5A0028C89A /* CatalogView.swift */; };
 		F8488B7C2C9C1D5C0028C89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8488B7B2C9C1D5C0028C89A /* Assets.xcassets */; };
 		F8488B7F2C9C1D5C0028C89A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8488B7E2C9C1D5C0028C89A /* Preview Assets.xcassets */; };
 		F8488B892C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488B882C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyTests.swift */; };
 		F8488B932C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488B922C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyUITests.swift */; };
 		F8488B952C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488B942C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyUITestsLaunchTests.swift */; };
+		F8488BA22C9C1E330028C89A /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488BA12C9C1E330028C89A /* Photos.swift */; };
+		F8488BA42C9C1E500028C89A /* SpacePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488BA32C9C1E500028C89A /* SpacePhoto.swift */; };
+		F8488BA62C9C1ED00028C89A /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488BA52C9C1ED00028C89A /* PhotoView.swift */; };
+		F8488BA82C9C1EF70028C89A /* SavePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8488BA72C9C1EF70028C89A /* SavePhotoButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		F8488B742C9C1D5A0028C89A /* SwiftUI_Photos-Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI_Photos-Concurrency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8488B772C9C1D5A0028C89A /* SwiftUI_Photos_ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Photos_ConcurrencyApp.swift; sourceTree = "<group>"; };
-		F8488B792C9C1D5A0028C89A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8488B792C9C1D5A0028C89A /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		F8488B7B2C9C1D5C0028C89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8488B7E2C9C1D5C0028C89A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8488B842C9C1D5C0028C89A /* SwiftUI_Photos-ConcurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI_Photos-ConcurrencyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		F8488B8E2C9C1D5C0028C89A /* SwiftUI_Photos-ConcurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI_Photos-ConcurrencyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8488B922C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Photos_ConcurrencyUITests.swift; sourceTree = "<group>"; };
 		F8488B942C9C1D5C0028C89A /* SwiftUI_Photos_ConcurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Photos_ConcurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8488BA12C9C1E330028C89A /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		F8488BA32C9C1E500028C89A /* SpacePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhoto.swift; sourceTree = "<group>"; };
+		F8488BA52C9C1ED00028C89A /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		F8488BA72C9C1EF70028C89A /* SavePhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePhotoButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				F8488B772C9C1D5A0028C89A /* SwiftUI_Photos_ConcurrencyApp.swift */,
-				F8488B792C9C1D5A0028C89A /* ContentView.swift */,
+				F8488B792C9C1D5A0028C89A /* CatalogView.swift */,
+				F8488BA12C9C1E330028C89A /* Photos.swift */,
+				F8488BA32C9C1E500028C89A /* SpacePhoto.swift */,
+				F8488BA52C9C1ED00028C89A /* PhotoView.swift */,
+				F8488BA72C9C1EF70028C89A /* SavePhotoButton.swift */,
 				F8488B7B2C9C1D5C0028C89A /* Assets.xcassets */,
 				F8488B7D2C9C1D5C0028C89A /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8488B7A2C9C1D5A0028C89A /* ContentView.swift in Sources */,
+				F8488BA22C9C1E330028C89A /* Photos.swift in Sources */,
+				F8488BA82C9C1EF70028C89A /* SavePhotoButton.swift in Sources */,
+				F8488BA42C9C1E500028C89A /* SpacePhoto.swift in Sources */,
+				F8488B7A2C9C1D5A0028C89A /* CatalogView.swift in Sources */,
+				F8488BA62C9C1ED00028C89A /* PhotoView.swift in Sources */,
 				F8488B782C9C1D5A0028C89A /* SwiftUI_Photos_ConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
